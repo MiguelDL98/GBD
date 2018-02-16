@@ -8,7 +8,17 @@
       </database-info>
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>Migueldl</user-name>
+      <user-name>migueldl</user-name>
+      <introspection-schemas>*:MIGUELDL</introspection-schemas>
+    </data-source>
+    <data-source name="@gandhi.salesianos.local" uuid="bc033316-4caa-494d-9f39-8562bf8fcc87">
+      <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>migueldl</user-name>
       <introspection-schemas>*:MIGUELDL</introspection-schemas>
     </data-source>
   </component>
