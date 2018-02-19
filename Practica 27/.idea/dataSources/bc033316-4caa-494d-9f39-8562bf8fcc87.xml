@@ -4,9 +4,9 @@
     <root id="1"/>
     <schema id="2" parent="1" name="MIGUELDL">
       <ObjectId>509</ObjectId>
-      <IntrospectionTimestamp>2018-02-16.10:36:21</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-02-19.10:26:48</IntrospectionTimestamp>
       <CreatedTimestamp>2018-02-02.10:16:12</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:36:20</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:47</ModifiedTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -236,27 +236,27 @@
       <ObjectId>2147483638</ObjectId>
     </schema>
     <table id="78" parent="2" name="EQUIPOS">
-      <ObjectId>266245</ObjectId>
-      <CreatedTimestamp>2018-02-16.10:34:12</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:34:21</ModifiedTimestamp>
+      <ObjectId>266837</ObjectId>
+      <CreatedTimestamp>2018-02-19.10:26:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:47</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="79" parent="2" name="GOLES">
-      <ObjectId>266253</ObjectId>
-      <CreatedTimestamp>2018-02-16.10:34:13</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ObjectId>266845</ObjectId>
+      <CreatedTimestamp>2018-02-19.10:26:35</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:35</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="80" parent="2" name="JUGADORES">
-      <ObjectId>266251</ObjectId>
-      <CreatedTimestamp>2018-02-16.10:34:13</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:36:20</ModifiedTimestamp>
+      <ObjectId>266843</ObjectId>
+      <CreatedTimestamp>2018-02-19.10:26:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:47</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="81" parent="2" name="PARTIDOS">
-      <ObjectId>266249</ObjectId>
-      <CreatedTimestamp>2018-02-16.10:34:13</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ObjectId>266841</ObjectId>
+      <CreatedTimestamp>2018-02-19.10:26:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <column id="82" parent="78" name="ID_EQUIPO">
@@ -289,65 +289,65 @@
       <NotNull>1</NotNull>
     </column>
     <index id="88" parent="78" name="EQUIPOS_PK">
-      <ObjectId>266246</ObjectId>
-      <CreatedTimestamp>2018-02-16.10:34:12</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:34:12</ModifiedTimestamp>
+      <ObjectId>266838</ObjectId>
+      <CreatedTimestamp>2018-02-19.10:26:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <TablespaceName>USUARIOS</TablespaceName>
       <ColNames>ID_EQUIPO</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="89" parent="78" name="EQUIPOS_UK1">
-      <ObjectId>266247</ObjectId>
-      <CreatedTimestamp>2018-02-16.10:34:12</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:34:12</ModifiedTimestamp>
+      <ObjectId>266839</ObjectId>
+      <CreatedTimestamp>2018-02-19.10:26:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <TablespaceName>USUARIOS</TablespaceName>
       <ColNames>NOMBRE</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="90" parent="78" name="EQUIPOS_UK2">
-      <ObjectId>266248</ObjectId>
-      <CreatedTimestamp>2018-02-16.10:34:12</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:34:12</ModifiedTimestamp>
+      <ObjectId>266840</ObjectId>
+      <CreatedTimestamp>2018-02-19.10:26:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <TablespaceName>USUARIOS</TablespaceName>
       <ColNames>ESTADIO</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="91" parent="78" name="EQUIPOS_PK">
-      <ModifiedTimestamp>2018-02-16.10:34:12</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>ID_EQUIPO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>EQUIPOS_PK</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <key id="92" parent="78" name="EQUIPOS_UK1">
-      <ModifiedTimestamp>2018-02-16.10:34:12</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>NOMBRE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>EQUIPOS_UK1</UnderlyingIndexName>
     </key>
     <key id="93" parent="78" name="EQUIPOS_UK2">
-      <ModifiedTimestamp>2018-02-16.10:34:12</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>ESTADIO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>EQUIPOS_UK2</UnderlyingIndexName>
     </key>
     <check id="94" parent="78" name="EQUIPOS_NN1">
-      <ModifiedTimestamp>2018-02-16.10:34:12</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>NOMBRE</ColNames>
       <Predicate>&quot;NOMBRE&quot; IS NOT NULL</Predicate>
     </check>
     <check id="95" parent="78" name="EQUIPOS_NN4">
-      <ModifiedTimestamp>2018-02-16.10:34:18</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:43</ModifiedTimestamp>
       <ColNames>ESTADIO</ColNames>
       <Predicate>&quot;ESTADIO&quot; IS NOT NULL</Predicate>
     </check>
     <check id="96" parent="78" name="EQUIPOS_NN3">
-      <ModifiedTimestamp>2018-02-16.10:34:17</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:43</ModifiedTimestamp>
       <ColNames>AFORO</ColNames>
       <Predicate>&quot;AFORO&quot; IS NOT NULL</Predicate>
     </check>
     <check id="97" parent="78" name="EQUIPOS_NN2">
-      <ModifiedTimestamp>2018-02-16.10:34:12</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>CIUDAD</ColNames>
       <Predicate>&quot;CIUDAD&quot; IS NOT NULL</Predicate>
     </check>
@@ -375,9 +375,9 @@
       <DataType>NUMBER(3)|0</DataType>
     </column>
     <index id="103" parent="79" name="GOLES_PK">
-      <ObjectId>266254</ObjectId>
-      <CreatedTimestamp>2018-02-16.10:34:13</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ObjectId>266846</ObjectId>
+      <CreatedTimestamp>2018-02-19.10:26:35</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:35</ModifiedTimestamp>
       <TablespaceName>USUARIOS</TablespaceName>
       <ColNames>ID_EQUIPO_CASA
 ID_EQUIPO_FUERA
@@ -385,7 +385,7 @@ MINUTO</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="104" parent="79" name="GOLES_PK">
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:35</ModifiedTimestamp>
       <ColNames>ID_EQUIPO_CASA
 ID_EQUIPO_FUERA
 MINUTO</ColNames>
@@ -394,16 +394,16 @@ MINUTO</ColNames>
       <Primary>1</Primary>
     </key>
     <foreign-key id="105" parent="79" name="GOLES_FK1">
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
-      <ColNames>ID_EQUIPO_FUERA
-ID_EQUIPO_CASA</ColNames>
+      <ModifiedTimestamp>2018-02-19.10:26:35</ModifiedTimestamp>
+      <ColNames>ID_EQUIPO_CASA
+ID_EQUIPO_FUERA</ColNames>
       <RefSchemaName>MIGUELDL</RefSchemaName>
       <RefTableName>PARTIDOS</RefTableName>
       <RefKeyName>PARTIDOS_PK</RefKeyName>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
     <foreign-key id="106" parent="79" name="GOLES_FK2">
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:35</ModifiedTimestamp>
       <ColNames>ID_JUGADOR</ColNames>
       <RefSchemaName>MIGUELDL</RefSchemaName>
       <RefTableName>JUGADORES</RefTableName>
@@ -411,10 +411,10 @@ ID_EQUIPO_CASA</ColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
     <check id="107" parent="79" name="GOLES_CK">
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:35</ModifiedTimestamp>
       <ColNames>ID_EQUIPO_CASA
 ID_EQUIPO_FUERA</ColNames>
-      <Predicate>ID_EQUIPO_FUERA=ID_EQUIPO_CASA</Predicate>
+      <Predicate>ID_EQUIPO_FUERA!=ID_EQUIPO_CASA</Predicate>
     </check>
     <column id="108" parent="80" name="ID_JUGADOR">
       <Position>1</Position>
@@ -434,22 +434,22 @@ ID_EQUIPO_FUERA</ColNames>
       <DataType>NUMBER(2)|0</DataType>
     </column>
     <index id="112" parent="80" name="JUGADORES_PK">
-      <ObjectId>266252</ObjectId>
-      <CreatedTimestamp>2018-02-16.10:34:13</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ObjectId>266844</ObjectId>
+      <CreatedTimestamp>2018-02-19.10:26:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <TablespaceName>USUARIOS</TablespaceName>
       <ColNames>ID_JUGADOR</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="113" parent="80" name="JUGADORES_PK">
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>ID_JUGADOR</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>JUGADORES_PK</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="114" parent="80" name="JUGADORES_FK">
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>ID_EQUIPO</ColNames>
       <RefSchemaName>MIGUELDL</RefSchemaName>
       <RefTableName>EQUIPOS</RefTableName>
@@ -483,16 +483,16 @@ ID_EQUIPO_FUERA</ColNames>
       <DataType>VARCHAR2(1000)|0</DataType>
     </column>
     <index id="121" parent="81" name="PARTIDOS_PK">
-      <ObjectId>266250</ObjectId>
-      <CreatedTimestamp>2018-02-16.10:34:13</CreatedTimestamp>
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ObjectId>266842</ObjectId>
+      <CreatedTimestamp>2018-02-19.10:26:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <TablespaceName>USUARIOS</TablespaceName>
       <ColNames>ID_EQUIPO_CASA
 ID_EQUIPO_FUERA</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="122" parent="81" name="PARTIDOS_PK">
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>ID_EQUIPO_CASA
 ID_EQUIPO_FUERA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
@@ -500,7 +500,7 @@ ID_EQUIPO_FUERA</ColNames>
       <Primary>1</Primary>
     </key>
     <foreign-key id="123" parent="81" name="PARTIDOS_FK2">
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>ID_EQUIPO_CASA</ColNames>
       <RefSchemaName>MIGUELDL</RefSchemaName>
       <RefTableName>EQUIPOS</RefTableName>
@@ -508,7 +508,7 @@ ID_EQUIPO_FUERA</ColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
     <foreign-key id="124" parent="81" name="PARTIDOS_FK1">
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>ID_EQUIPO_FUERA</ColNames>
       <RefSchemaName>MIGUELDL</RefSchemaName>
       <RefTableName>EQUIPOS</RefTableName>
@@ -516,7 +516,7 @@ ID_EQUIPO_FUERA</ColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
     <check id="125" parent="81" name="PARTIDOS_CK">
-      <ModifiedTimestamp>2018-02-16.10:34:13</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-02-19.10:26:34</ModifiedTimestamp>
       <ColNames>ID_EQUIPO_CASA
 ID_EQUIPO_FUERA</ColNames>
       <Predicate>ID_EQUIPO_FUERA!=ID_EQUIPO_CASA</Predicate>
